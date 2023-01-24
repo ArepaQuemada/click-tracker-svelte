@@ -11,5 +11,6 @@
     }
     :global(html, body) {
         height: 100%;
+        font-family: 'Roboto', sans-serif;;
     }
 </style>

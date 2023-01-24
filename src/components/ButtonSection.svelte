@@ -1,6 +1,6 @@
 <div class="button-section">
-        <button>Undo</button>
-        <button>redo</button>
+        <button on:click name="Undo">Undo</button>
+        <button on:click name="Redo">Redo</button>
 </div>
 
 <style>
@@ -9,7 +9,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: grey;
+        background-color: #37474F;
         padding: 1rem;
     }
     button {
@@ -17,8 +17,13 @@
         flex-basis: 25%;
         padding: .5rem;
         border-radius: 8px;
-        background-color: aqua;
+        background-color: #03A9F4;
         text-align: center;
         cursor: pointer;
+        color: #FAFAFA;
+        max-width: 450px;
+    }
+    button:hover {
+        opacity: 0.5;
     }
 </style>
