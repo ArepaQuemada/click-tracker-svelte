@@ -1,4 +1,12 @@
-# create-svelte
+# Click Tracker Svelte
+
+Primera aplicación para aprender conceptos de desarrollo de Svelte (Components, variables, reactividad, props, etc)
+La app consta de 3 funcionalidades: 
+
+- Al hacer click en la pantalla, se debe renderizar un círculo
+- Al oprimir botón undo, se debe eliminar un círculo
+- Al oprimir botón redo, se debe agregar círculo
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
